@@ -13,6 +13,7 @@ def print_array(arr):
     print("Danh sách sau khi sắp xếp:", arr)
 
 # Chạy thử
+#Danh sach ví dụ đã cho 
 if __name__ == "__main__":
     arr = list(map(int, input("Nhập các số, cách nhau bằng dấu cách: ").split()))
     print("Danh sách ban đầu:", arr)
