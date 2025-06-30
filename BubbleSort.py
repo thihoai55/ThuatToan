@@ -14,7 +14,7 @@ def print_array(arr):
 
 # Chạy thử
 if __name__ == "__main__":
-    arr = [64, 25, 12, 22, 11]
+    arr = list(map(int, input("Nhập các số, cách nhau bằng dấu cách: ").split()))
     print("Danh sách ban đầu:", arr)
     bubble_sort(arr)
     print_array(arr)
